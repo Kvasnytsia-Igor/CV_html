@@ -4,16 +4,16 @@ body{
 }
 .left{
     background-color: #E9E9E9;
-    width: 30%;
-    min-width: 350px;
+    width: 300px;
 }
 .right{
     background-color: #FFFFFF;
-    width: 70%;
+    width: 600px;
     padding: 10px;
 }
 .container{
     display: flex;
+    justify-content: center;
 }
 .name{
     text-align: center;
@@ -24,6 +24,6 @@ body{
 }
 .photo{
     margin: auto;
-     width: 50%;
-     display: block;
+    width: 50%;
+    display: block;
 }
